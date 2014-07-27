@@ -4,7 +4,9 @@
 ## inverse matrix = determinant multiplied by the adjugate matrix
 ## cacheSolve activates all sub fauntions in makeCacheMatrix, 
 ## loading if possible the cached Matrix
-## Write a short comment describing this function
+
+## makeCacheMatrix, this creates a function which returns a list of
+## functions which work together to create a cached Inversed Matrix
 
 
 makeCacheMatrix <- function(x = matrix()) {
