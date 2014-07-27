@@ -73,5 +73,5 @@ cacheSolve <- function(x, ...) {
     coMatrix<-x$getCoMatrix()#gets the cofactor Matrix
     cacheInvMatrix<-(1/detMatrix)*coMatrix #calculates Inverse Matrix
     x$setInvMatrix(cacheInvMatrix)# save the inverse Matrix to cache
-    cacheInvMatrix
+    cacheInvMatrix#returns cache Inverse Matrix
 }
